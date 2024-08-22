@@ -36,19 +36,8 @@ header li {
     padding-right: 5%;
 }
 
-#hero {
-    background: url(https://placehold.co/1200x300);
-    background-size: contain;
-    height: 38vh;
-    background-repeat: no-repeat;
-    border: 1px solid red;
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    padding: 3%;
-}
-
-main {
+main,
+footer {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid red;
@@ -67,6 +56,42 @@ section {
     padding: 1%;
 }
 
-#horiseon img{
+footer li {
+    list-style: none;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hero {
+    background: url(https://robots.net/wp-content/uploads/2019/10/code-coder-codes-2194062.jpg);
+    background-size: cover;
+    height: 38vh;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 3%;
+}
+
+#horiseon img {
+    width: 100%;
+}
+
+#smallPics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#smallPics section {
+    flex: 1 0 45%;
+}
+
+#smallPics img {
     width: 100%;
 }
